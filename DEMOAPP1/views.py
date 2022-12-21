@@ -11,3 +11,7 @@ def f2(request):
 
 def f6(request):
     return HttpResponse("<h2>Hello from DEMOAPP1 f6()</h2><hr/>");
+
+
+def f7(request):
+    return HttpResponse("<h2>Hello from DEMOAPP1 f7()</h2><hr/>");
